@@ -17,11 +17,13 @@ body {
 
 #scoreBoard {
   top: 0;
+  width: fit-content;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom: 2px black solid;
+  border-right: 2px black solid;
   font-size: 1.5rem;
   padding: 0.3rem;
   position: sticky;
