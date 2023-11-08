@@ -16,12 +16,15 @@ body {
 }
 
 #scoreBoard {
+  top: 0;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom: 2px black solid;
   font-size: 1.5rem;
   padding: 0.3rem;
+  position: sticky;
 }
 
 .scoreSection {
