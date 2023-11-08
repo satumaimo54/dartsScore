@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  max-width: 1920px;
+}
+
+.no-spin::-webkit-inner-spin-button,
+.no-spin::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+
+#scoreBoard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px black solid;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+}
+
+.scoreSection {
+  margin: 2rem 2rem;
+  border-bottom: 2px black solid;
+}
+
+input {
+  margin: 0.2rem;
+}
+
+.pointInput {
+  height: 2rem;
+}
+
+#resetBtn {
+  margin-left: 3rem;
+  padding: 1rem;
+  border: none;
+  color: #fff;
+  background-color: #eb6100;
+  border-radius: 100vh;
+}

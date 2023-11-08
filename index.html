@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darts Scores</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div id="scoreBoard">合計
+        <span id="overallScore">0</span>
+        <button id="resetBtn">リセット</button>
+    </div>
+    <div class="scoreSection">
+        <p>1投目
+            <input type="checkbox" name="missCheck" class="missCheck" data-miss_index="0">
+            <label for="missCheck">ミス</label>
+            <input type="radio" name="bonusCheck" data-bonus_index="0">
+            <label for="bonusCheck">ボーナス</label>
+        </p>
+
+
+
+        <input type="number" name="point" placeholder="ポイントを入力" class="no-spin pointInput">
+
+        <p>
+            <label><input type="radio" name="multiple1" data-bai="1">1倍</label>
+            <label><input type="radio" name="multiple1" data-bai="2">2倍</label>
+            <label><input type="radio" name="multiple1" data-bai="3">3倍</label>
+        </p>
+        <p class="scoreText">1投目</p>
+    </div>
+
+    <div class="scoreSection">
+        <p>2投目
+            <input type="checkbox" name="missCheck" class="missCheck" data-miss_index="1">
+            <label for="missCheck">ミス</label>
+            <input type="radio" name="bonusCheck" data-bonus_index="1">
+            <label for="bonusCheck">ボーナス</label>
+        </p>
+
+
+
+        <input type="number" name="point" placeholder="ポイントを入力" class="no-spin pointInput">
+        <p>
+            <label><input type="radio" name="multiple2" data-bai="1">1倍</label>
+            <label><input type="radio" name="multiple2" data-bai="2">2倍</label>
+            <label><input type="radio" name="multiple2" data-bai="3">3倍</label>
+        </p>
+        <p class="scoreText">2投目</p>
+    </div>
+
+    <div class="scoreSection">
+        <p>3投目
+            <input type="checkbox" name="missCheck" class="missCheck" data-miss_index="2">
+            <label for="missCheck">ミス</label>
+            <input type="radio" name="bonusCheck" data-bonus_index="2">
+            <label for="bonusCheck">ボーナス</label>
+        </p>
+
+
+
+        <input type="number" name="point" placeholder="ポイントを入力" class="no-spin pointInput">
+
+        <p>
+            <label><input type="radio" name="multiple3" data-bai="1">1倍</label>
+            <label><input type="radio" name="multiple3" data-bai="2">2倍</label>
+            <label><input type="radio" name="multiple3" data-bai="3">3倍</label>
+        </p>
+        <p class="scoreText">3投目</p>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+<script src="script2.js"></script>
+<script src="script3.js"></script>
+
+</html>
