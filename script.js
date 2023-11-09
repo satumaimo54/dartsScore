@@ -4,13 +4,13 @@ const $point = document.getElementsByClassName("pointInput");
 const scoreText = document.getElementsByClassName("scoreText");
 const $scoreBoard = document.getElementById("overallScore");
 
-let scoreList = [0, 0, 0];
 const totalScore = function (arr) {
   return arr.reduce(function (prev, current, i, arr) {
     return prev + current;
   });
 };
 
+let scoreList = [0, 0, 0];
 let bonus = [false, false, false];
 
 let bonusIndex = 0;

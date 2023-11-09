@@ -14,68 +14,68 @@
         <button id="resetBtn">リセット</button>
     </div>
     <div class="scoreSection">
-        <p>1投目
-            <input type="checkbox" name="missCheck" class="missCheck" data-miss_index="0">
-            <label for="missCheck">ミス</label>
-            <input type="radio" name="bonusCheck" data-bonus_index="0">
-            <label for="bonusCheck">ボーナス</label>
-        </p>
+        <div>1投目
+            <input type="checkbox" name="missCheck" class="missCheck" id="missCheck-1" data-miss_index="0">
+            <label for="missCheck-1">ミス</label>
+            <input type="radio" id="bonusCheck-1" name="bonusCheck" data-bonus_index="0">
+            <label for="bonusCheck-1">ボーナス(2倍)</label>
+        </div>
 
 
 
         <input type="number" name="point" placeholder="ポイントを入力" class="no-spin pointInput">
 
-        <p>
-            <label><input type="radio" name="multiple1" data-bai="1">1倍</label>
-            <label><input type="radio" name="multiple1" data-bai="2">2倍</label>
-            <label><input type="radio" name="multiple1" data-bai="3">3倍</label>
-        </p>
-        <p class="scoreText">1投目</p>
+        <div class="multipleSection">
+            <input type="radio" id="m1-1" name="multiple1" data-bai="1"><label for="m1-1">1倍</label>
+            <input type="radio" id="m1-2" name="multiple1" data-bai="2"><label for="m1-2">2倍</label>
+            <input type="radio" id="m1-3" name="multiple1" data-bai="3"><label for="m1-3">3倍</label>
+        </div>
+        <p class="scoreText">1投目 0</p>
     </div>
 
     <div class="scoreSection">
-        <p>2投目
-            <input type="checkbox" name="missCheck" class="missCheck" data-miss_index="1">
-            <label for="missCheck">ミス</label>
-            <input type="radio" name="bonusCheck" data-bonus_index="1">
-            <label for="bonusCheck">ボーナス</label>
-        </p>
+        <div>2投目
+            <input type="checkbox" name="missCheck" class="missCheck" id="missCheck-2" data-miss_index="1">
+            <label for="missCheck-2">ミス</label>
+            <input type="radio" id="bonusCheck-2" name="bonusCheck" data-bonus_index="1">
+            <label for="bonusCheck-2">ボーナス(2倍)</label>
+        </div>
 
 
 
         <input type="number" name="point" placeholder="ポイントを入力" class="no-spin pointInput">
-        <p>
-            <label><input type="radio" name="multiple2" data-bai="1">1倍</label>
-            <label><input type="radio" name="multiple2" data-bai="2">2倍</label>
-            <label><input type="radio" name="multiple2" data-bai="3">3倍</label>
-        </p>
-        <p class="scoreText">2投目</p>
+        <div class="multipleSection">
+            <input type="radio" id="m2-1" name="multiple2" data-bai="1"><label for="m2-1">1倍</label>
+            <input type="radio" id="m2-2" name="multiple2" data-bai="2"><label for="m2-2">2倍</label>
+            <input type="radio" id="m2-3" name="multiple2" data-bai="3"><label for="m2-3">3倍</label>
+        </div>
+        <p class="scoreText">2投目 0</p>
     </div>
 
     <div class="scoreSection">
-        <p>3投目
-            <input type="checkbox" name="missCheck" class="missCheck" data-miss_index="2">
-            <label for="missCheck">ミス</label>
-            <input type="radio" name="bonusCheck" data-bonus_index="2">
-            <label for="bonusCheck">ボーナス</label>
-        </p>
+        <div>3投目
+            <input type="checkbox" name="missCheck" class="missCheck" id="missCheck-3" data-miss_index="2">
+            <label for="missCheck-3">ミス</label>
+            <input type="radio" id="bonusCheck-3" name="bonusCheck" data-bonus_index="2">
+            <label for="bonusCheck-3">ボーナス(2倍)</label>
+        </div>
 
 
 
         <input type="number" name="point" placeholder="ポイントを入力" class="no-spin pointInput">
 
-        <p>
-            <label><input type="radio" name="multiple3" data-bai="1">1倍</label>
-            <label><input type="radio" name="multiple3" data-bai="2">2倍</label>
-            <label><input type="radio" name="multiple3" data-bai="3">3倍</label>
-        </p>
-        <p class="scoreText">3投目</p>
+        <div class="multipleSection">
+            <input type="radio" id="m3-1" name="multiple3" data-bai="1"><label for="m3-1">1倍</label>
+            <input type="radio" id="m3-2" name="multiple3" data-bai="2"><label for="m3-2">2倍</label>
+            <input type="radio" id="m3-3" name="multiple3" data-bai="3"><label for="m3-3">3倍</label>
+        </div>
+        <p class="scoreText">3投目 0</p>
     </div>
 
 
 </body>
 <script src="script.js"></script>
-<script src="script2.js"></script>
+<script src="script2_ver2.js"></script>
 <script src="script3.js"></script>
 
 </html>

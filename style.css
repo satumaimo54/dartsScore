@@ -17,14 +17,14 @@ body {
 
 #scoreBoard {
   top: 0;
-  width: fit-content;
+  width: 100%;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom: 2px black solid;
   border-right: 2px black solid;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 0.3rem;
   position: sticky;
 }
@@ -35,16 +35,35 @@ body {
 }
 
 input {
-  margin: 0.2rem;
+  margin: 0.5rem 0.3rem;
 }
 
 .pointInput {
   height: 2rem;
 }
 
+.multipleSection label {
+  padding: 0.3rem;
+}
+
+input[type="checkbox"] {
+  width: 1.3rem;
+  height: 1.3rem;
+  vertical-align: middle;
+}
+input[type="radio"] {
+  width: 1.3rem;
+  height: 1.3rem;
+  vertical-align: middle;
+}
+input[type="number"] {
+  margin: 0.5rem;
+  vertical-align: middle;
+}
+
 #resetBtn {
   margin-left: 3rem;
-  padding: 1rem;
+  padding: 0.5rem;
   border: none;
   color: #fff;
   background-color: #eb6100;
